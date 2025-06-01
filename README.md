@@ -1,7 +1,7 @@
 # QuickChartsV2025
 QuickCharts Marching Band Drill Writing Software.
 
-Files are viewable in the "Master" branch.
+Files are viewable in the "Master" branch.  Go to "src" and "main" to view the code
 
 This software is for sale for $30 through my company, Code Crafters, LLC
 
