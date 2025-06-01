@@ -1,0 +1,55 @@
+.myButton {
+	-fx-font-weight: bold; -fx-background-color: linear-gradient(#ffd65b, #e68400),linear-gradient(#ffef84, #f2ba44),linear-gradient(#ffea6a, #efaa22),linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));-fx-background-radius: 30;-fx-background-insets: 0,1,2,3,0;-fx-text-fill: #654b00;-fx-font-weight: bold; -fx-font-size: 10px;-fx-padding: 10 20 10 20;
+}
+
+.myButton:hover {
+	-fx-font-weight: bold; -fx-background-color: linear-gradient(#ffd65b, #e68400),linear-gradient(#ffffff, #ffdc66),linear-gradient(#fffd9d, #ffdd88),linear-gradient(#fff999 0%, #ffe639 50%, #ffd64d 100%),linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+}
+
+.myButton:pressed {
+	-fx-font-weight: bold; -fx-background-color: #00ff00; -fx-text-fill: white;
+}
+
+.topButton {
+    -fx-font-weight: bold; -fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+}
+
+.topButton:hover {
+    -fx-font-weight: bold; -fx-background-color:
+        linear-gradient(#ffff60, #d9ff39),
+        radial-gradient(center 50% -40%, radius 200%, #e9ff69 45%, #aae933 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+}
+
+.myBackground {
+	-fx-background-image: url("background.jpg");
+}
+
+.textField {
+	-fx-font-weight: bold; 
+}
+
+.controls {
+	-fx-border-color: black; -fx-border-width: 3px; -fx-border-radius: 30; -fx-background-radius: 20px; -fx-font-weight: bold; 
+}
+
+.myColorButton {
+	-fx-border-radius: 30;
+}
+
+.myColorButton:hover {
+	-fx-font-style: italic; -fx-font-weight: none;
+}
+
+.myColorButton:pressed {
+    -fx-background-color: white;
+}

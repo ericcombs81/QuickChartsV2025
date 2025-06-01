@@ -1,0 +1,85 @@
+# Blender MTL File: 'None'
+# Material Count: 7
+
+newmtl .HG_Eyes_Outer_FAST
+Ns 359.999993
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl .HG_Teeth
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.500000 0.500000 0.500000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\ecombs\\blenderkit_data\\models\\woman_01_fe272f82-52c4-4192-aec4-e5143be15e68\\textures_2k\\TeethTongueSet_N_2K.png
+map_Kd C:\\Users\\ecombs\\blenderkit_data\\models\\woman_01_fe272f82-52c4-4192-aec4-e5143be15e68\\textures_2k\\TeethTongueSet_C_2K.jpg
+
+newmtl HG_Eyes_.HG_Eyes_Inner_BAKED
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\ecombs\\blenderkit_data\\models\\woman_01_fe272f82-52c4-4192-aec4-e5143be15e68\\textures_2k\\HG_Ferne_eyes_Base Color_base color.jpeg
+
+newmtl Jeans
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\ecombs\\blenderkit_data\\models\\woman_01_fe272f82-52c4-4192-aec4-e5143be15e68\\textures_2k\\HG_Ferne_HG_Skinny_Jeans_Female.001_Normal_normal.jpeg
+map_Kd C:\\Users\\ecombs\\blenderkit_data\\models\\woman_01_fe272f82-52c4-4192-aec4-e5143be15e68\\textures_2k\\HG_Ferne_HG_Skinny_Jeans_Female.001_Base Color_base color.jpeg
+map_Ns C:\\Users\\ecombs\\blenderkit_data\\models\\woman_01_fe272f82-52c4-4192-aec4-e5143be15e68\\textures_2k\\HG_Ferne_HG_Skinny_Jeans_Female.001_Roughness_roughness.jpeg
+
+newmtl Shoes
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.623931 0.663539 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\ecombs\\blenderkit_data\\models\\woman_01_fe272f82-52c4-4192-aec4-e5143be15e68\\textures_2k\\HG_Ferne_HG_Running_Shoe_1_Female.001_Normal_normal.jpeg
+map_Ns C:\\Users\\ecombs\\blenderkit_data\\models\\woman_01_fe272f82-52c4-4192-aec4-e5143be15e68\\textures_2k\\HG_Ferne_HG_Running_Shoe_1_Female.001_Roughness_roughness.jpeg
+
+newmtl TSHIRT
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\ecombs\\blenderkit_data\\models\\woman_01_fe272f82-52c4-4192-aec4-e5143be15e68\\textures_2k\\HG_Ferne_HG_TSHIRT_Female.001_Normal_normal.jpeg
+
+newmtl skin.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\ecombs\\blenderkit_data\\models\\woman_01_fe272f82-52c4-4192-aec4-e5143be15e68\\textures_2k\\HG_Ferne_body_Normal_normal.jpeg
+map_Kd C:\\Users\\ecombs\\blenderkit_data\\models\\woman_01_fe272f82-52c4-4192-aec4-e5143be15e68\\textures_2k\\HG_Ferne_body_Base Color_base color.jpeg
+map_Ks C:\\Users\\ecombs\\blenderkit_data\\models\\woman_01_fe272f82-52c4-4192-aec4-e5143be15e68\\textures_2k\\HG_Ferne_body_Specular_specular.jpeg
+map_Ns C:\\Users\\ecombs\\blenderkit_data\\models\\woman_01_fe272f82-52c4-4192-aec4-e5143be15e68\\textures_2k\\HG_Ferne_body_Roughness_roughness.jpeg

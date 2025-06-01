@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shortcut Keys</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+      background-image: url('background.jpg');
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: green;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #333;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+      background: white;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+
+    code {
+      background: #f7f7f7;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Shortcut Keys</h1>
+
+    <h2>Snap to grid</h2>
+    <table>
+      <tr><th>Action</th><th>Shortcut</th></tr>
+      <tr><td>Snap selected marchers to grid</td><td><code>o (moves the marcher to the closest grid mark)</code></td></tr>
+    </table>
+
+    <h2>Visualization</h2>
+    <table>
+      <tr><th>Action</th><th>Shortcut</th></tr>
+      <tr><td>Animate ("move")</td><td><code>m (starts from the "start set" indicated near the bottom right of the screen)</code></td></tr>
+      <tr><td>View 3d (small screen)</td><td><code>v (for "visualize")</code></td></tr>
+      <tr><td>Fullscreen 2-D View</td><td><code>f ("full")</code></td></tr>
+      <tr><td>Preview Printable Drill Chart</td><td><code>p ("printable preview")</code></td></tr>
+    </table>
+
+    <h2>Movement</h2>
+    <table>
+      <tr><th>Action</th><th>Shortcut</th></tr>
+      <tr><td>Move selected position(s) left 1/2 step</td><td><code>a</code></td></tr>
+      <tr><td>Move selected position(s) right 1/2 step</td><td><code>d</code></td></tr>
+      <tr><td>Move selected position(s) up 1/2 step</td><td><code>w</code></td></tr>
+      <tr><td>Move selected position(s) down 1/2 step</td><td><code>s</code></td></tr>
+      <tr><td>Move selected position(s) left 1/4 step</td><td><code>left arrow</code></td></tr>
+      <tr><td>Move selected position(s) right 1/4 step</td><td><code>right arrow</code></td></tr>
+      <tr><td>Move selected position(s) up 1/4 step</td><td><code>up arrow</code></td></tr>
+      <tr><td>Move selected position(s) down 1/4 step</td><td><code>down arrow</code></td></tr>
+      <tr><td>Snap selected marchers to grid</td><td><code>o (moves the marcher to the closest grid mark)</code></td></tr>
+      <tr><td></td><td><code></code></td></tr>
+    </table>
+
+    <h2>Set Selection</h2>
+    <table>
+      <tr><th>Action</th><th>Shortcut</th></tr>
+      <tr><td>Change to a set in the range 1-9</td><td><code>1-9</code></td></tr>
+      <tr><td>Change to set 10</td><td><code>0</code></td></tr>
+      <tr><td>Change to a set in the range 11-19</td><td><code>SHIFT plus 1-9</code></td></tr>
+      <tr><td>Change to set 20</td><td><code>SHIFT plus 0</code></td></tr>
+      <tr><td>Change to the next set</td><td><code>n</code></td></tr>
+      <tr><td>Change to the previous set</td><td><code>b ("back")</code></td></tr>
+    </table>
+
+    <h2>Fullscreen 2-D Commands</h2>
+    <table>
+      <tr><th>Action</th><th>Shortcut</th></tr>
+      <tr><td>Toggle Full Screen</td><td><code>f</code></td></tr>
+      <tr><td>Exit Full Screen</td><td><code>f or ESCAPE</code></td></tr>
+      <tr><td>Zoom in (in full screen)</td><td><code>SHIFT and +</code></td></tr>
+      <tr><td>Zoom out (in full screen)</td><td><code>SHIFT and -</code></td></tr>
+      <tr><td></td><td><code></code></td></tr>
+    </table>
+
+    <h2>3D Shortcuts</h2>
+    <table>
+      <tr><th>Action</th><th>Shortcut</th></tr>
+      <tr><td>Open 3D viewer (small)</td><td><code>v ("visualize")</code></td></tr>
+      <tr><td>Close 3D viewer</td><td><code>ESCAPE</code></td></tr>
+      <tr><td>Toggle onscreen shortcut display</td><td><code>h "hide"</code></td></tr>
+      <tr><td>Rotate camera around fixed point</td><td><code>Move mouse OR use arrow keys</code></td></tr>
+      <tr><td>Move camera through space</td><td><code>a (left), s (down), d(right), w(up)</code></td></tr>
+      <tr><td>Animate</td><td><code>m ("move")</code></td></tr>
+      <tr><td>Zoom in</td><td><code>1</code></td></tr>
+      <tr><td>Zoom out</td><td><code>2</code></td></tr>
+    </table>
+
+    <h2>Editing and Misc.</h2>
+    <table>
+      <tr><th>Action</th><th>Shortcut</th></tr>
+      <tr><td>Undo</td><td><code>u</code></td></tr>
+      <tr><td>Redo</td><td><code>r</code></td></tr>
+      <tr><td>Multiple Selection (one at a time)</td><td><code>CTRL while left clicking</code></td></tr>
+      <tr><td>Multiple Selection (mass)</td><td><code>Right click and hold while dragging mouse</code></td></tr>
+      <tr><td>Delete selected position</td><td><code>DELETE or BACKSPACE (Doesn't work with multiple selection)</code></td></tr>
+      <tr><td>Cycle selected marchers (numerically)</td><td><code>x</code></td></tr>
+      <tr><td>Cycle selected marchers in reverse</td><td><code>z</code></td></tr>
+      <tr><td>Snap selected marchers to grid</td><td><code>o (moves the marcher to the closest grid mark)</code></td></tr>
+    </table>
+
+    
+
+  </div>
+</body>
+</html>
